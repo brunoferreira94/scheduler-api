@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Services", "01 - Services", "{EC1376FF-ECBB-4659-9BDC-6CDDF71CA23D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 - Host", "01.1 - Host", "{F5412701-5344-4E30-8980-B35EB0FE7AFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{CF61DBA7-E173-4E40-99DF-008D7FA39F7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{34809388-5266-4C48-9677-A715A73199E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{876FCA99-ABFE-4F53-B166-5EE4971ECC51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Services.Api", "src\Scheduler.Services.Host\Scheduler.Services.Api.csproj", "{4F51F769-0C14-4C71-953B-65CE5C624024}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Domain", "src\Scheduler.Domain\Scheduler.Domain.csproj", "{AB742264-4563-4D6A-A23B-99A2D3DD0181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.1 - Data", "04.1 - Data", "{B9F93C2A-12A6-483F-A039-6D5AA18ED3E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.2 - CrossCutting", "04.2 - CrossCutting", "{29D7BB51-C358-4EB9-95F4-D26E35E85AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Infra.CrossCutting.IoC", "src\Scheduler.Infra.CrossCutting.IoC\Scheduler.Infra.CrossCutting.IoC.csproj", "{53FAA478-1629-4748-9271-C86D2282152D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Infra.Data", "src\Scheduler.Infra.Data\Scheduler.Infra.Data.csproj", "{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Application", "src\Scheduler.Application\Scheduler.Application.csproj", "{257BD64E-C6D7-4374-9130-E19170CDAD40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F51F769-0C14-4C71-953B-65CE5C624024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F51F769-0C14-4C71-953B-65CE5C624024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F51F769-0C14-4C71-953B-65CE5C624024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F51F769-0C14-4C71-953B-65CE5C624024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB742264-4563-4D6A-A23B-99A2D3DD0181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB742264-4563-4D6A-A23B-99A2D3DD0181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB742264-4563-4D6A-A23B-99A2D3DD0181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB742264-4563-4D6A-A23B-99A2D3DD0181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53FAA478-1629-4748-9271-C86D2282152D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FAA478-1629-4748-9271-C86D2282152D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FAA478-1629-4748-9271-C86D2282152D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FAA478-1629-4748-9271-C86D2282152D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257BD64E-C6D7-4374-9130-E19170CDAD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257BD64E-C6D7-4374-9130-E19170CDAD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257BD64E-C6D7-4374-9130-E19170CDAD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257BD64E-C6D7-4374-9130-E19170CDAD40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5412701-5344-4E30-8980-B35EB0FE7AFD} = {EC1376FF-ECBB-4659-9BDC-6CDDF71CA23D}
+		{4F51F769-0C14-4C71-953B-65CE5C624024} = {F5412701-5344-4E30-8980-B35EB0FE7AFD}
+		{AB742264-4563-4D6A-A23B-99A2D3DD0181} = {34809388-5266-4C48-9677-A715A73199E7}
+		{B9F93C2A-12A6-483F-A039-6D5AA18ED3E2} = {876FCA99-ABFE-4F53-B166-5EE4971ECC51}
+		{29D7BB51-C358-4EB9-95F4-D26E35E85AB1} = {876FCA99-ABFE-4F53-B166-5EE4971ECC51}
+		{53FAA478-1629-4748-9271-C86D2282152D} = {29D7BB51-C358-4EB9-95F4-D26E35E85AB1}
+		{AA2FEDF4-4BD3-43BB-878D-3EC071EDA89F} = {B9F93C2A-12A6-483F-A039-6D5AA18ED3E2}
+		{257BD64E-C6D7-4374-9130-E19170CDAD40} = {CF61DBA7-E173-4E40-99DF-008D7FA39F7A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {194A6BB9-C04C-40DA-B8C1-F8C2AE38B835}
+	EndGlobalSection
+EndGlobal
